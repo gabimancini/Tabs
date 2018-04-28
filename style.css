@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  display: flex;
+  font-size: 20px;
+  background-color: gray; }
+  ul li.tab-link {
+    list-style: none;
+    padding: 15px;
+    background-color: gray; }
+    ul li.tab-link.tab-link.active {
+      background-color: #ffffff;
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black; }
+      ul li.tab-link.tab-link.active a {
+        color: gray; }
+    ul li.tab-link a {
+      text-decoration: none;
+      color: #ffffff; }
+
+.tab-content {
+  display: none;
+  height: 500px;
+  padding: 20px; }
+  .tab-content.active {
+    display: block; }
+
+/*# sourceMappingURL=style.css.map */

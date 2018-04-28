@@ -1,0 +1,39 @@
+*{
+  padding:0;
+  margin:0;
+}
+ 
+ul{
+  display:flex;  
+  font-size:20px;  
+  background-color:gray;
+  li.tab-link{ 
+    list-style: none;   
+    padding:15px; 
+    background-color:gray;  
+    &.tab-link.active{
+      background-color: #ffffff; 
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+       a{
+        color:gray;
+      }
+    }
+   
+    a{ 
+      text-decoration: none;
+      color: #ffffff;  
+    }
+  }
+}
+.tab-content{ 
+  display:none; 
+  height:500px;
+  padding:20px;
+   &.active{ 
+    display:block;
+  } 
+}
+ 
+
